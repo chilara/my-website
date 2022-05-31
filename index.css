@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-color: #BAC7A7;
+}
+
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    background-color: #698474;
+}
