@@ -40,10 +40,17 @@ a{
     cursor: pointer;
 }
 
+
+a {
+    color: #ffffff;
+  }
+
+
 .contact{
     margin-left: 30px;
     margin-right: 30px;
     cursor: pointer;
+    color: #f6c355;
 }
 
 .registration{
@@ -56,25 +63,14 @@ a{
     cursor: pointer;
 }
 
- /* a link */
- a:link {
-    color: #ffffff;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #ffffff;
-  }
+
   
   /* mouse over link */
   a:hover {
     color: #f6c355;
   }
   
-  /* selected link */
-  a:active {
-      color: #f6c355;
-  }
+
 
 
    .main{
@@ -108,42 +104,65 @@ a{
   }
 
   .name{
-      border-radius: 10px;
-      background-color: #1e1e1e;
-      color: #ffffff;
-      padding: 7px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 7px;
+    width: 53%;
+    border-color: #ffffff;
     
   }
 
   .l-name{
-      margin-right: 18%;
+      margin-right: 48%;
       color: #000000;
+
   }
 
 
+  .msg{
+    margin-right: 45%;
+    color: #000000;
+    
+  }
+
 
   .email{
-      border-radius: 10px;
-      background-color: #1e1e1e;
-      color: #ffffff;
-      padding: 7px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 7px;
+    width: 53%;
+    border-color: #ffffff;
   }
 
 
   .textarea{
     border-radius: 10px;
-    background-color: #1e1e1e;
-    color: #67686c;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 7px;
+    width: 53%;
+    border-color: #ffffff;
       
   }
 
+
+
+
   .c-button{
-      text-align: center;
-      padding: 10px;
-      border-radius: 7px;
-      background-color: #1e1e1e;
-      font-size: small;
+    text-align: center;
+    padding: 7px; 
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    font-size: small;
+    cursor: pointer;
+    width: 30%;
+    color: #ffffff;
   }
+
+
+
 
   .touch{
       color: #f6c355;

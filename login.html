@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./contact.css">
-    <title>contact</title>
+    <link rel="stylesheet" href="./login.css">
+    <title>login</title>
 </head>
 <body>
     <header>
@@ -14,24 +14,30 @@
             <div class="child-navBar">
             <a href="./index.html" class="home">Home</a>
             <a href="./index.html #about-me" class="about">About me</a>
-            <a href="Contact" class="contact">Contact</a>
+            <a href="./contact.html" class="contact">Contact</a>
             <a href="./reg.html" class="registration">Registration</a>
-            <a href="./login.html" class="login">Login</a>
+            <a href="Login" class="login">Login</a>
             </div>
         </nav>
     </header>
-    <main class="main">
-            <h2>Get in <strong class="touch">touch</strong></h2>
-            <p>Have feedback or need some help?</p>
-            <form class="form">
-                <label for="fname" class="l-name">Name</label><br>
-                <input type="text" id="fname" name="fname" class="name" placeholder="Full Name"><br><br>
-                <label for="lname" class="l-name">E-mail</label><br>
-                <input type="text" id="lname" name="lname" class="email" placeholder=" Your Email"><br><br>
-                <label for="lname" class="msg">Message</label><br>
-                <textarea rows="8" cols="50" name="comment" class="textarea" placeholder="Message"></textarea><br><br><br>
-                <button class="c-button">Submit</button><br>
-              </form>
+    <main>
+        <div class="divide">
+            <div class="first-con">
+                <h1 class="we">Welcome back!</h1>
+                <p class="pl">Please login to your account.</p> 
+            </div>
+            <div class="login-middle">
+                <h2 class="lo"><strong>Login</strong></h2>
+                <form class="form">
+                    <label for="fname" class="l-name">Email</label><br>
+                    <input type="text" id="fname" name="fname" class="name" placeholder="Your Email"><br><br><br>
+                    <label for="lname" class="password">Password</label><br>
+                    <input type="text" id="lname" name="lname" class="name" placeholder=" Password"><br>
+                    <h5 class="forgot">Forgot Password?</h5><br><br>
+                    <button class="c-button">Login</button><br>
+                    <h5 class="nw">New User? <strong class="sign-up">Sign up</strong></h5>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer">
@@ -48,5 +54,6 @@
             <a href="./contact.html" class="button"><strong>Contact</strong></a>
         </div>
     </footer>
+    
 </body>
 </html>

@@ -46,8 +46,13 @@ a{
     cursor: pointer;
 }
 
+a {
+    color: #ffffff;
+  }
+
 .registration{
     cursor: pointer;
+    color: #f6c355;
 }
 
 .login{
@@ -56,26 +61,13 @@ a{
     cursor: pointer;
 }
 
- /* a link */
- a:link {
-    color: #ffffff;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #ffffff;
-  }
-  
+
   /* mouse over link */
   a:hover {
     color: #f6c355;
   }
   
-  /* selected link */
-  a:active {
-      color: #f6c355;
-  }
-
+ 
 
 
   .reg{
@@ -99,14 +91,15 @@ a{
     margin-top: 3%;
     padding: 2% 0 2% 0;
     border-radius: 10px;
-
 }
 
 .name{
     border-radius: 10px;
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #1e1e1e;
     padding: 7px;
+    width: 50%;
+    border-color: #ffffff;
   
 }
 
@@ -168,10 +161,10 @@ a.button{
 
 #select{
     border-radius: 10px;
-    background-color: #1e1e1e;
-    color: #67686c;
+    background-color: #ffffff;
+    color: #1e1e1e;
     padding: 7px;
-    width: 29%;
+    width: 53%;
   
 }
 
@@ -181,10 +174,14 @@ a.button{
 
 .c-button{
     text-align: center;
-    padding: 10px;
+    padding: 7px; 
     border-radius: 7px;
     background-color: #1e1e1e;
     font-size: small;
+    cursor: pointer;
+    width: 50%;
+    color: #ffffff;
+   
 }
 
 .button{
@@ -196,4 +193,9 @@ a.button{
      height: 10px;
      text-align: center;
 
+}
+
+.s1{
+    text-decoration: underline;
+    cursor: pointer;
 }
