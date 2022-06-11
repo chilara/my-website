@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./contact.css">
+    <script src="./contact.js"></script>
     <title>contact</title>
 </head>
 <body>
@@ -18,7 +19,19 @@
             <a href="Registration" class="registration">Registration</a>
             <a href="Login" class="login">Login</a>
             </div>
+            <button id="hamburger" onclick="toggler()">
+                <div class="line"></div>
+                <div class="line line2"></div>
+                <div class="line"></div>
+            </button>
         </nav>
+        <div class="menu-mobile hide">
+            <a href="#" class="home active">Home</a>
+            <a href="About me" class="about">About me</a>
+            <a href="Contact" class="contact">Contact</a>
+            <a href="Registration" class="registration">Registration</a>
+            <a href="Login" class="login">Login</a>
+          </div>
     </header>
     <main class="main">
             <h2>Get in <strong class="touch">touch</strong></h2>
@@ -45,6 +58,7 @@
             </div>
             <hr class="hr">
             <a href="./contact.html" class="button"><strong>Contact</strong></a>
+            <h5 class="copyright"> </h5>
         </div>
     </footer>
 </body>

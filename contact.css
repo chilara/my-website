@@ -56,26 +56,19 @@ a{
     cursor: pointer;
 }
 
- /* a link */
- a:link {
+ 
+ a{
     color: #ffffff;
   }
   
-  /* visited link */
-  a:visited {
-    color: #ffffff;
-  }
-  
+ 
   /* mouse over link */
   a:hover {
     color: #f6c355;
+    font-size: larger;
   }
   
-  /* selected link */
-  a:active {
-      color: #f6c355;
-  }
-
+  
 
    .main{
        margin-bottom: 7%;
@@ -203,3 +196,95 @@ a.button{
     border-style: solid;
     color: #f6c355;
 }
+
+
+.menu-mobile{
+    display: none;
+}
+
+
+
+#hamburger{
+    display: none;
+}
+
+
+
+.active {
+    color: #f6c355;
+  }
+  
+  .copyright {
+    text-align: center;
+    background-color: #000000;
+  }
+
+  .show {
+    display: flex;
+    align-content: center;
+  }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 803px) {
+
+    #hamburger {
+     display: block;
+     border: none;
+     background-color: #151515;
+     cursor: pointer;
+ 
+ }
+ 
+ .login,
+ .home,
+ .registration,
+ .about,
+ .contact {
+   margin: 6px 0px;
+ }
+ 
+ 
+ 
+     .line {
+         background-color: #ffffff;
+         height: 2px;
+         width: 110%;
+         margin-top: 100px 0;
+         margin-left: 10% 0;
+       }
+ 
+       .line2 {
+         margin: 5px 0;
+       }
+       
+ 
+       .menu-mobile{
+         align-items: center;
+         flex-direction: column;
+         padding-right: 2%;
+     
+       }
+ 
+       .child-navBar{
+         display: none;
+     
+     }
+ 
+     .navBar{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+ 
+     .show{
+         display: flex;
+         align-content: center;
+     }
+
+    }
