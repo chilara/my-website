@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my website</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
 </head>
 <body>
     <header>
@@ -18,24 +19,36 @@
             <a href="Registration" class="registration">Registration</a>
             <a href="Login" class="login">Login</a>
             </div>
+            <button id="hamburger" onclick="toggler()">
+                <div class="line"></div>
+                <div class="line line2"></div>
+                <div class="line"></div>
+            </button>
         </nav>
+        <div class="menu-mobile hide">
+            <a href="#" class="home active">Home</a>
+            <a href="About me" class="about">About me</a>
+            <a href="Contact" class="contact">Contact</a>
+            <a href="Registration" class="registration">Registration</a>
+            <a href="Login" class="login">Login</a>
+          </div>
+    
     </header>
     <main>
             <section class="section1">
                 <div class="intro">
-                    <h5>Hello I'm</h5>
                     <h1 class="name"><strong>Chisom Oguine</strong></h1>
                     <h4 class="GD">Visual Designer / Frontend Developer</h4>
                 </div>
                 <img src="https://lh3.googleusercontent.com/a-/AOh14GjQw-7PvOwLvRIi4KqX1d36NJyp89MFhR00xQh8XQ=s396-p-rw-no" alt="profile picture" class="img-pp">
             </section>
                 <div class="middle-container">
-                    <h2 class="AB"><strong>ABOUT ME</strong></h2>
-                    <p class="AB2">A trained Visual Designer, with excellent professional experience in Graphics Design Multimedia, and computer-aided design. Proven ability to transform client ideas into beautiful, functional design solutions. A process improvement champion and advocate with a bias for driving performance towards achieving organizational targets/objectives. Unmatchable organizational, time management, detail-oriented and interpersonal skills. 
-                    </p>
+                    <h2 class="AB">ABOUT <strong class="me">ME</strong></h2>
+                    <div class="AB2">A trained Visual Designer, with excellent professional experience in Graphics Design Multimedia, and computer-aided design. Proven ability to transform client ideas into beautiful, functional design solutions. A process improvement champion and advocate with a bias for driving performance towards achieving organizational targets/objectives. Unmatchable organizational, time management, detail-oriented and interpersonal skills. 
+                    </div>
                         <div class="child-middle">
                             <div class="skills">
-                            <h4><strong>SKILLS</strong></h4>
+                            <h4><strong class="sk">SKILLS</strong></h4>
                             <div class="first">
                                 <p>Microsoft office tools</p>
                                 <p class="ninty-five">95%</p>
@@ -88,9 +101,9 @@
                     <p>Login</p>
                 </div>
                 <hr class="hr">
-                <a href="#" class="button"><strong>Contact</strong></a>
-                
+                <a href="#" class="button"><strong>Contact</strong></a>  
             </div>
+            <h5 class="copyright">Copyright &copy; Nwoke Ike, 2022. All Rights Reserved </h5>
            
         </footer>
 </body>
