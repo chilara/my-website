@@ -68,6 +68,7 @@ a {
   /* mouse over link */
   a:hover {
     color: #f6c355;
+    font-size: larger;
   }
   
 
@@ -108,11 +109,6 @@ a {
 }
 
 
-
-.checkbox{
-    margin-right: 2%;
-    margin-left: 8%;
-}
 
 
 .forgot{
@@ -216,18 +212,13 @@ a {
     padding: 7px; 
     border-radius: 7px;
     background-color: #1e1e1e;
-    font-size: small;
+    font-size: medium;
     cursor: pointer;
     width: 60%;
     color: #ffffff;
 
     
 }
-
-
-
-
-
 
 
 
@@ -276,3 +267,224 @@ a.button{
     color: #f6c355;
 }
 
+
+.copyright{
+    text-align: center;
+    background-color: none;
+}
+
+#hamburger{
+    display: none;
+    width: 30px;
+    border-width: 0px;
+
+}
+.menu-mobile{
+    display: none;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+.show{
+    display: flex;
+    
+    
+}
+
+
+.active{
+    color: #f6c355;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media screen and (max-width: 803px) {
+
+    #hamburger {
+     display: block;
+     border: none;
+     background-color: #151515;
+     cursor: pointer;
+ 
+ }
+ 
+ .login,
+ .home,
+ .registration,
+ .about,
+ .contact {
+   margin: 6px 0px;
+ }
+ 
+ 
+ 
+     .line {
+         background-color: #ffffff;
+         height: 2px;
+         width: 110%;
+         margin-top: 100px 0;
+         margin-left: 10% 0;
+       }
+ 
+       .line2 {
+         margin: 5px 0;
+       }
+       
+ 
+       .menu-mobile{
+         align-items: center;
+         flex-direction: column;
+         padding-right: 2%;
+     
+       }
+ 
+       .child-navBar{
+         display: none;
+     
+     }
+ 
+     .navBar{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+ 
+     .show{
+         display: flex;
+         align-content: center;
+     }
+
+
+
+     .divide{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+
+    .first-con{
+        display: none;
+        
+     } 
+
+
+    
+    .login-middle{
+        background-color: #f6c355;
+        margin-left: 11%;
+        margin-top: 8%;
+        padding: 5% 13% 5% 13%;
+        border-radius: 10px 10px 10px 10px;
+        width: 52%;
+    }
+
+     
+    .footer{ 
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        padding: 12%;
+        
+
+    }
+
+
+
+    .button{
+        background-color: #f6c355;
+        padding: 15px;
+         border-radius: 5px;
+         font-size: large;
+         color: #ffffff;
+         text-align: center;
+    
+
+
+    }
+
+    
+  .l-name{
+    margin-right: 80%;
+    color: #000000;
+}
+
+.password{
+    margin-right: 75%;
+    color: #000000;
+}
+
+
+.name{
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 7px;
+    width: 95%;
+    border-color: #ffffff;
+  
+}
+
+.forgot{
+    margin-left: 65%;
+    color: #1e1e1e;
+    cursor: pointer;
+    font-size: x-small;
+
+}
+
+
+
+
+.c-button{
+    text-align: center;
+    padding: 7px; 
+    border-radius: 7px;
+    background-color: #1e1e1e;
+    font-size: small;
+    cursor: pointer;
+    width: 98%;
+    color: #ffffff;
+
+    
+}
+
+
+.nw{
+    color: #151515;
+    font-size: small;
+}
+
+
+
+.sign-up{
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.button{
+    background-color: #f6c355;
+    padding: 14px;
+     border-radius: 5px;
+     font-size: small;
+     color: #ffffff;
+     height: 10px;
+     text-align: center;
+
+}
+
+
+ 
+    }

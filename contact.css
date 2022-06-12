@@ -5,6 +5,10 @@ body{
     color: #ffffff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 .navBar{
     display: flex;
@@ -68,6 +72,9 @@ a {
   /* mouse over link */
   a:hover {
     color: #f6c355;
+    font-size: larger;
+
+
   }
   
 
@@ -75,6 +82,7 @@ a {
 
    .main{
        margin-bottom: 7%;
+    
    }
 
 
@@ -155,7 +163,7 @@ a {
     padding: 7px; 
     border-radius: 5px;
     background-color: #1e1e1e;
-    font-size: small;
+    font-size: medium;
     cursor: pointer;
     width: 30%;
     color: #ffffff;
@@ -189,6 +197,7 @@ a {
     display: flex;
     justify-content: center;
     padding: 6%;
+    margin-top: 7%;
     
 }
 
@@ -222,3 +231,229 @@ a.button{
     border-style: solid;
     color: #f6c355;
 }
+
+
+.menu-mobile{
+    display: none;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+#hamburger{
+    display: none;
+    width: 30px;
+    border-width: 0px;
+
+}
+
+
+.show{
+    display: flex;
+    
+    
+}
+
+
+.active{
+    color: #f6c355;
+
+}
+
+
+
+.copyright{
+    text-align: center;
+    background-color: none;
+}
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media screen and (max-width: 803px) {
+
+    #hamburger {
+     display: block;
+     border: none;
+     background-color: #151515;
+     cursor: pointer;
+ 
+ }
+ 
+ .login,
+ .home,
+ .registration,
+ .about,
+ .contact {
+   margin: 6px 0px;
+ }
+ 
+ 
+ 
+     .line {
+         background-color: #ffffff;
+         height: 2px;
+         width: 110%;
+         margin-top: 100px 0;
+         margin-left: 10% 0;
+       }
+ 
+       .line2 {
+         margin: 5px 0;
+       }
+       
+ 
+       .menu-mobile{
+         align-items: center;
+         flex-direction: column;
+         padding-right: 2%;
+     
+       }
+ 
+       .child-navBar{
+         display: none;
+     
+     }
+ 
+     .navBar{
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+ 
+     .show{
+         display: flex;
+         align-content: center;
+     }
+
+     
+    .footer{ 
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        padding: 12%;
+        
+
+    }
+
+
+
+    .button{
+        background-color: #f6c355;
+        padding: 15px;
+         border-radius: 5px;
+         font-size: large;
+         color: #ffffff;
+         text-align: center;
+    
+
+
+    }
+
+    .form{
+        background-color: #f6c355;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 7%;
+        padding: 4% 5% 4% 5%; 
+        width: 70%;
+        border-radius: 10px;
+  
+    }
+
+    .name{
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: #1e1e1e;
+        padding: 7px;
+        width: 65%;
+        border-color: #ffffff;
+        
+      }
+
+      .l-name{
+        margin-right: 54%;
+        color: #000000;
+  
+    }
+
+    .email{
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: #1e1e1e;
+        padding: 7px;
+        width: 65%;
+        border-color: #ffffff;
+      }
+
+
+      .textarea{
+        border-radius: 10px;
+        background-color: #ffffff;
+        color: #1e1e1e;
+        padding: 7px;
+        width: 65%;
+        border-color: #ffffff;
+          
+      }
+
+      
+      .msg{
+           margin-right: 47%;
+           color: #000000;
+    
+        }
+
+        .c-button{
+            text-align: center;
+            padding: 5px; 
+            border-radius: 5px;
+            background-color: #1e1e1e;
+            font-size: small;
+            cursor: pointer;
+            width: 25%;
+            color: #ffffff;
+          }
+  
+          .footer{ 
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            padding: 12%;
+            
+    
+        }
+    
+    
+    
+        .button{
+            background-color: #f6c355;
+            padding: 13px;
+             border-radius: 5px;
+             font-size: large;
+             color: #ffffff;
+             text-align: center;
+    
+        }
+
+        .footer-logo{
+            margin-right: 17%;
+            margin-left: 20%;
+            width: 45px;
+            height: 45px;
+        }
+
+
+
+
+    }
